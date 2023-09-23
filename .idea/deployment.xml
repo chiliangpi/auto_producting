@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="fanke.chang@231:22 agent (4)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="fanke.chang@231:22 agent">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_445" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fanke.chang@231:22 agent (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_957" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fanke.chang@231:22 agent (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_818" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fanke.chang@231:22 agent (4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_943" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sftp-test">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/home/fanke.chang" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
