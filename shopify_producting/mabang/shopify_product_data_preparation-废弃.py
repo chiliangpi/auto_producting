@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # @Time     : 2023/9/18
 # @Author   : fanke.chang
-# @File     : shopify_product_data_preparation.py
+# @File     : shopify_product_data_preparation-废弃.py
 # @Desc     :
 import time
 
@@ -11,18 +11,15 @@ import json
 import re
 from collections import OrderedDict
 from shopify_producting.conf.config import *
-from utils import *
+from shopify_producting.utils import *
 from googletrans import Translator
 import easyocr
 
 translator = Translator()
 orcReader = easyocr.Reader(['en', 'ch_sim'])
 
-input_file_path = intermediate_file_path
-output_file_path = shopify_product_data_file_path
-
-
 df_input = pd.read_csv(input_file_path, sep='\t', dtype=str).fillna('')
+
 period_tokens = 0
 columns = ['master_sku_id','unique_id','product_url','main_brand','sub_brand','title_cn_ori','title_en_ori','cost_price','weight','video_url','developer','creater','creat_time','product_length','product_width','product_height','minimum_order_quantity','product_master_image_url_ori','product_window_images_url_ori','product_attribute_images_url_ori','product_description_images_url_ori','product_description_cn_ori','product_description_en_ori','supplier_name','purchase_days','varients_ori','options_ori']
 columns = columns + ['variants', 'options', 'product_master_image_url', 'product_images_url', 'gpt_result_json']

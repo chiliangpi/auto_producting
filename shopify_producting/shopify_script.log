@@ -1,0 +1,4 @@
+2023-09-27 22:46:52 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json
+2023-09-27 22:48:46 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?limit=5
+2023-09-27 22:50:50 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?limit=5
+2023-09-27 22:50:51 - INFO - --> 200 OK 12220b

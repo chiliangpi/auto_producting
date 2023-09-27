@@ -59,3 +59,9 @@ for i in range(len(df_input)):
     logging.info(f"product_title={new_product.title} upload succeed")
 
 logging.info(f"total upload {i+1} products")
+
+
+# products = shopify.Product.find()
+# products = shopify.Product.find(limit=5)
+# product = products[0]
+# json.dumps

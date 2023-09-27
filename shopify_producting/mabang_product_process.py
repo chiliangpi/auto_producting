@@ -15,8 +15,8 @@ import time
 from shopify_producting.conf.config import *
 from utils import *
 from googletrans import Translator
-import easyocr
-
+# import easyocr
+from models_utils import ImageStructureOCR, GPTGenerator
 import logging
 
 # 配置日志
@@ -30,6 +30,7 @@ logging.basicConfig(
 def generate_varients(df_group):
     df_group = df_group.reset_index(drop=True)
     df_group['position'] = df_group.index + 1
+    df_group['sku'] = df_group.apply(lambda x: x['主sku编号'].strip() + "-" + x['position'], axis=1)
     df_group['option1'] = df_group['属性值1']
     df_group['option2'] = df_group['属性值2']
     df_group['option3'] = df_group['属性值3']
@@ -117,7 +118,9 @@ def product_agg(df_group):
 
 if __name__ == '__main__':
     translator = Translator()
-    orcReader = easyocr.Reader(['en', 'ch_sim'])
+    # orcReader = easyocr.Reader(['en', 'ch_sim'])
+    orcReader = ImageStructureOCR()
+    gpt_generator = GPTGenerator()
 
     df_mabang_download = pd.read_csv(download_file_path, dtype=str).fillna('').replace(r'\t', '', regex=True)
     # df_mabang_download['唯一ID'] = 'mabang-' + df_mabang_download['唯一ID'].astype(str)
@@ -146,13 +149,13 @@ if __name__ == '__main__':
                 if not images_url:
                     continue
                 for image_url in images_url.split(','):
-                    image_detect_result, image_detect_history = image_detect_chinese(orcReader, image_url, image_detect_history)
-                    if image_detect_result == 'not_contain_chinese':
+                    image_detect_info, image_detect_history = orcReader(images_url, image_detect_history)
+                    if image_detect_info.get('is_contain_chinese') == 'contain_chinese' or image_detect_info.get('is_contain_table') == 'contain_table':
                         product_images_url.append(image_url)
 
             product_master_image_url = product_images_url[0] if product_images_url else ''
 
-            gpt_result_json, usage_tokens = gpt_generate_info(row.title_cn_ori, row.product_description_cn_ori, model='gpt-3.5-turbo-0613')
+            gpt_result_json, usage_tokens = gpt_generator(row.title_cn_ori, row.product_description_cn_ori, model='gpt-3.5-turbo-0613')
             period_tokens += usage_tokens
             if (i+1) % 3000 == 0 or (period_tokens+1) % 90000 == 0:
                 time.sleep(10)

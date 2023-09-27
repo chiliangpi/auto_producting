@@ -223,30 +223,30 @@ def price_strategy(cost_price, lowest_cost_price):
     compare_price = sell_price
     return sell_price, compare_price
 
-def build_prompt(title, body_text, variants):
-    prompt = f"""请根据商品名称和描述信息，总结出商品的标题和商品listing，内容如下：
-    title:{title}
-    body_text:{body_text}
-    以Json格式输出
-    """
-    return prompt
+# def build_prompt(title, body_text, variants):
+#     prompt = f"""请根据商品名称和描述信息，总结出商品的标题和商品listing，内容如下：
+#     title:{title}
+#     body_text:{body_text}
+#     以Json格式输出
+#     """
+#     return prompt
 
-def image_detect_chinese(orcReader, image_src, image_detect_history):
-    """
-    OCR检测图片是否含有中文，image_detect_history的格式为{image_src1: 'contain_chinese', image_src2: 'not_contain_chinese'}
-    """
-    # response = requests.get(image_src)
-    # img = Image.open(BytesIO(response.content))
-    if image_src in image_detect_history:
-        return image_detect_history.get(image_src), image_detect_history
-    # img_text_list = orcReader.readtext(image_src, detail=0, rotation_info=[90, 180, 270])
-    img_text_list = []
-    if re.search('[\u4e00-\u9fa5]', ' '.join(img_text_list)):
-        image_detect_history[image_src] = 'contain_chinese'
-    else:
-        image_detect_history[image_src] = 'not_contain_chinese'
-
-    return image_detect_history.get(image_src), image_detect_history
+# def image_detect_chinese(orcReader, image_src, image_detect_history):
+#     """
+#     OCR检测图片是否含有中文，image_detect_history的格式为{image_src1: 'contain_chinese', image_src2: 'not_contain_chinese'}
+#     """
+#     # response = requests.get(image_src)
+#     # img = Image.open(BytesIO(response.content))
+#     if image_src in image_detect_history:
+#         return image_detect_history.get(image_src), image_detect_history
+#     # img_text_list = orcReader.readtext(image_src, detail=0, rotation_info=[90, 180, 270])
+#     img_text_list = []
+#     if re.search('[\u4e00-\u9fa5]', ' '.join(img_text_list)):
+#         image_detect_history[image_src] = 'contain_chinese'
+#     else:
+#         image_detect_history[image_src] = 'not_contain_chinese'
+#
+#     return image_detect_history.get(image_src), image_detect_history
 
 def text_translate(translator, text, translate_history):
     if not text:
@@ -274,6 +274,7 @@ def variants_process(variants, orcReader, translator, image_detect_history, tran
 
     for variant in variants:
         # title = variant.get('title')
+        sku = variant.get('sku')
         price = variant.get('price')
         position = variant.get('position')
         compare_at_price = variant.get('compare_at_price')
@@ -294,22 +295,26 @@ def variants_process(variants, orcReader, translator, image_detect_history, tran
         option2_translate, translate_history = text_translate(translator, option2, translate_history)
         option3_translate, translate_history = text_translate(translator, option3, translate_history)
 
-        image_chinese_info, image_detect_history = image_detect_chinese(orcReader, image_src, image_detect_history)
-        if image_chinese_info == 'contain_chinese':
+        image_detect_info, image_detect_history = orcReader(image_src, image_detect_history)
+
+        if image_detect_info.get('is_contain_chinese') == 'contain_chinese' or image_detect_info.get('is_contain_table') == 'contain_table':
             image_src = None
 
         translate_variant = {
-                                # 'title': title_translate,
-                                'price': sell_price,
+                                # 'title': f"{option1_translate}/{option2_translate}/{option3_translate}",
+                                'sku': sku,
+                                'price': str(sell_price),
                                 'position': position,
-                                'compare_at_price': compare_price,
+                                'compare_at_price': str(compare_price),
                                 'option1': option1_translate,
                                 'option2': option2_translate,
                                 'option3': option3_translate,
                                 'grams': grams,
                                 'weight': weight,
                                 'weight_unit': weight_unit,
-                                'image_src': image_src
+                                'image_src': image_src,
+                                'taxable': True,
+                                'requires_shipping': True
                             }
         translate_variants.append(translate_variant)
 
@@ -343,64 +348,6 @@ def options_process(options, translator, translate_history):
         translate_options.append(translate_option)
     return json.dumps(translate_options, ensure_ascii=False), translate_history
 
-def gpt_generate_info(title, description, model='chatglm'):
-    system_role = """\
-#Role
-E-commerce Operations Specialist
-#Goals
-Extract key product information based on provided product titles and various product details
-#Language
---English
-#Workflows
---product_description: Concise and highlighting product features, with a word limit of 50 words
---brief_title: Summarize a brief and personalized product title within 10 words
---seo_title: With a word limit of 30 words
---google_category: Infer the Google product category
---shopify_category: Infer the Shopify product category
---type: Infer the product type
---tags: Infer product tags (up to 5) in descending order of priority, separated by commas
---gender: Determine the gender of the target audience (choose from male, female, unisex)
---age_group: Determine the age group of the target audience (choose from child, adult)
---adword_groups: Infer up to 3 adword groups
---adword_labels: Infer up to 5 adword labels
---material
---craftsmanship
---fashion_element
---style
---size
-#Constraints
---The extracted information must not contain keywords related to cross-border, dropshipping, wholesale, made in China or the year 2022
---Google and Shopify product categories should be complete, hierarchical categories
---If an attribute value is not found, use an empty string ('')
---If an attribute has multiple values seperated by commas
-#Output
---Output a JSON result only; no intermediate information is required
-"""
-    user_content = f"title: {title}\ndescription: {description}\nplease output the JSON only"
-    openai.api_key = OPENAI_API_KEY
-    if model in ['gpt-3.5-turbo', 'gpt-3.5-turbo-0613', 'gpt-4']:
-        # completion = openai.ChatCompletion.create(
-        #     model=f"{model}",
-        #     messages=[
-        #         {"role": "system", "content": f"{system_role}"},
-        #         {"role": "user", "content": f"{user_content}"}
-        #     ]
-        # )
-        # try:
-        #     assistant_response = completion.choices[0].message.content
-        #     json_result = json.dumps(json.loads(assistant_response))
-        #     usage_tokens = completion.usage.total_tokens
-        # except:
-        #     json_result = ''
-        #     usage_tokens = 0
-        #     pass
-        json_result = '{"product_description": "Simple and stylish jewelry with a heart-shaped design and zircon inlays. Made of copper. Suitable for any occasion.", "brief_title": "Fashionable Heart-shaped Necklace", "seo_title": "Trendy Heart-shaped Necklace with Zircon Inlays", "google_category": "Jewelry & Watches > Necklaces", "shopify_category": "Jewelry > Necklaces", "type": "", "tags": "necklace, jewelry, heart-shaped, zircon, trendy", "gender": "female", "age_group": "adult", "adword_groups": "jewelry, fashion accessories, gifts", "adword_labels": "heart-shaped, zircon, trendy", "material": "Copper", "craftsmanship": "Zircon Inlays", "fashion_element": "Heart-shaped", "style": "Ins Style", "size": ""}'
-        usage_tokens = 0
-
-    elif model == 'chatglm':
-        pass
-
-    return json_result, usage_tokens
 
 class TrieNode():
     """
