@@ -13,16 +13,18 @@ from bs4 import BeautifulSoup
 import openai
 from shopify_producting.conf.config import *
 import json
+from shopify_producting.utils import *
+from shopify_producting.logging_config import logger
 
 class ImageStructureOCR():
-    def __init__(self, det_model_dir, rec_model_dir, table_model_dir, layout_model_dir):
-        det_model_dir = "/home/aistudio/work/paddleocr_model/det/ch/ch_PP-OCRv4_det_infer"
-        rec_model_dir = "/home/aistudio/work/paddleocr_model/rec/ch/ch_PP-OCRv4_rec_infer"
-        table_model_dir = "/home/aistudio/work/paddleocr_model/table/ch_ppstructure_mobile_v2.0_SLANet_infer"
-        layout_model_dir = "/home/aistudio/work/paddleocr_model/layout/picodet_lcnet_x1_0_fgd_layout_cdla_infer"
-        self.table_engine = PPStructure(layout=True, table=True, ocr=True, show_log=True, det_model_dir=det_model_dir,
-                                   rec_model_dir=rec_model_dir, table_model_dir=table_model_dir,
-                                   layout_model_dir=layout_model_dir)
+    def __init__(self, det_model_dir=None, rec_model_dir=None, table_model_dir=None, layout_model_dir=None):
+        self.det_model_dir = "/home/aistudio/work/paddleocr_model/det/ch/ch_PP-OCRv4_det_infer"
+        self.rec_model_dir = "/home/aistudio/work/paddleocr_model/rec/ch/ch_PP-OCRv4_rec_infer"
+        self.table_model_dir = "/home/aistudio/work/paddleocr_model/table/ch_ppstructure_mobile_v2.0_SLANet_infer"
+        self.layout_model_dir = "/home/aistudio/work/paddleocr_model/layout/picodet_lcnet_x1_0_fgd_layout_cdla_infer"
+        self.table_engine = PPStructure(layout=True, table=True, ocr=True, show_log=True, det_model_dir=self.det_model_dir,
+                                   rec_model_dir=self.rec_model_dir, table_model_dir=self.table_model_dir,
+                                   layout_model_dir=self.layout_model_dir)
 
     # def predict(self, image_src, image_detect_history):
     #     if image_src in image_detect_history:
@@ -37,7 +39,16 @@ class ImageStructureOCR():
         if image_src in image_detect_history:
             detect_info = image_detect_history.get(image_src)
             return detect_info, image_detect_history
-        orc_result = self.table_engine(image_src)
+        image_array = read_image_from_url(image_src)
+        if not image_array:
+            detect_info = {'predict_result': '',
+                           'is_contain_chinese': 'not open',
+                           'is_contain_table': 'not open'
+                           }
+            image_detect_history[image_src] = detect_info
+            return detect_info, image_detect_history
+
+        orc_result = self.table_engine(image_array)
         is_contain_chinese = ''
         is_contain_table = ''
         for res_dict in orc_result:

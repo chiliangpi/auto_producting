@@ -7,13 +7,16 @@
 
 import os
 
-download_file_path = "./shopify_producting/data/mabang_download.csv"
+__dir__ = os.path.dirname(os.path.abspath(__file__))
+project_dir = os.path.abspath(os.path.join(__dir__, '../..'))
+
+download_file_path = os.path.join(project_dir, "shopify_producting/data/mabang_download.csv")
 download_file_no_surfix = os.path.splitext(os.path.basename(download_file_path))[0]
 download_file_dirname = os.path.dirname(download_file_path)
 processed_file_path = os.path.join(download_file_dirname, f"{download_file_no_surfix}_output.csv")
 
-google_category_file_en = "./shopify_producting/resources/taxonomy-with-ids.en-US.xls"
-google_category_file_cn = "./shopify_producting/resources/taxonomy-with-ids.en-CN.xls"
+google_category_file_en = os.path.join(project_dir, "shopify_producting/resources/taxonomy-with-ids.en-US.xls")
+google_category_file_cn = os.path.join(project_dir, "shopify_producting/resources/taxonomy-with-ids.en-CN.xls")
 
 
 emoji_code = {'material': '&#x1F48E;',

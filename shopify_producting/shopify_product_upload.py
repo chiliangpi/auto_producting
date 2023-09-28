@@ -4,22 +4,21 @@
 # @Author   : fanke.chang
 # @File     : shopify_product_upload.py
 # @Desc     :
+
+import sys
+import os
+
+__dir__ = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(__dir__)
+sys.path.insert(0, os.path.abspath(os.path.join(__dir__, '../..')))
+
 import pandas as pd
 import json
 import re
 import time
 from shopify_producting.conf import *
-from utils import *
-import logging
-
-# 配置日志
-logging.basicConfig(
-    filename='shopify_script.log',  # 日志文件名
-    level=logging.INFO,       # 设置日志级别，可以选择DEBUG、INFO、WARNING、ERROR、CRITICAL等级别
-    format='%(asctime)s - %(levelname)s - %(message)s',  # 日志消息格式
-    datefmt='%Y-%m-%d %H:%M:%S'  # 日期时间格式
-)
-
+from shopify_producting.utils import *
+from shopify_producting.logging_config import logger
 import shopify
 
 shopify.ShopifyResource.set_site(f"https://{SHOPIFY_API_KEY}:{SHOPIFY_PASSWORD}@{SHOPIFY_SHOP_URL}/admin")
@@ -56,9 +55,9 @@ for i in range(len(df_input)):
                         "images": images,
                     }
     new_product = shopify.Product.create(product_info)
-    logging.info(f"product_title={new_product.title} upload succeed")
+    logger.info(f"product_title={new_product.title} upload succeed")
 
-logging.info(f"total upload {i+1} products")
+logger.info(f"total upload {i+1} products")
 
 
 # products = shopify.Product.find()

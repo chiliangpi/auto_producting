@@ -15,6 +15,10 @@ import os
 import openai
 from fuzzywuzzy import process, fuzz
 from shopify_producting.conf.config import *
+import requests
+from PIL import Image
+from io import BytesIO
+from shopify_producting.logging_config import logger
 
 
 def json_process(json_info):
@@ -253,7 +257,8 @@ def text_translate(translator, text, translate_history):
         return None, translate_history
     if text in translate_history:
         return translate_history.get(text), translate_history
-    text_translate = translator.translate(text, src='auto', dest='en').text.title()
+    # text_translate = translator.translate(text, src='auto', dest='en').text.title()
+    text_translate = text
     translate_history[text] = text_translate
 
     return translate_history.get(text), translate_history
@@ -295,7 +300,7 @@ def variants_process(variants, orcReader, translator, image_detect_history, tran
         option2_translate, translate_history = text_translate(translator, option2, translate_history)
         option3_translate, translate_history = text_translate(translator, option3, translate_history)
 
-        image_detect_info, image_detect_history = orcReader(image_src, image_detect_history)
+        image_detect_info, image_detect_history = orcReader.image_detect(image_src, image_detect_history)
 
         if image_detect_info.get('is_contain_chinese') == 'contain_chinese' or image_detect_info.get('is_contain_table') == 'contain_table':
             image_src = None
@@ -386,6 +391,24 @@ def build_category_tree(df_category):
         category_levels = [category for category in row.tolist()[1:] if category]
         treeNode.insert(category_levels, category_id)
     return treeNode
+
+def read_image_from_url(url):
+    # 发送 GET 请求获取图片内容
+    response = requests.get(url)
+
+    # 检查请求是否成功
+    if response.status_code == 200:
+        # 从响应中读取图片内容
+        image_content = response.content
+
+        # 使用 PIL 库打开图片
+        image = Image.open(BytesIO(image_content))
+
+        return np.array(image)
+    else:
+        # 如果请求失败，输出错误信息
+        print(f"Failed to retrieve image. Status code: {response.status_code}")
+        return None
 
 # names = ['category_id'] + [f'category_{i}' for i in range(1, 8, 1)]
 # df_category = pd.read_excel(google_category_file_en, names=names).fillna('')

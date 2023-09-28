@@ -6,6 +6,13 @@
 # @Desc     :
 
 
+import sys
+import os
+
+__dir__ = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(__dir__)
+sys.path.insert(0, os.path.abspath(os.path.join(__dir__, '../..')))
+
 import pandas as pd
 import json
 import re
@@ -13,24 +20,16 @@ from collections import OrderedDict
 from datetime import datetime
 import time
 from shopify_producting.conf.config import *
-from utils import *
-from googletrans import Translator
-# import easyocr
-from models_utils import ImageStructureOCR, GPTGenerator
-import logging
+from shopify_producting.utils import *
+# from googletrans import Translator
+from shopify_producting.logging_config import logger
 
-# 配置日志
-logging.basicConfig(
-    filename='shopify_script.log',  # 日志文件名
-    level=logging.INFO,       # 设置日志级别，可以选择DEBUG、INFO、WARNING、ERROR、CRITICAL等级别
-    format='%(asctime)s - %(levelname)s - %(message)s',  # 日志消息格式
-    datefmt='%Y-%m-%d %H:%M:%S'  # 日期时间格式
-)
+from shopify_producting.models_utils import ImageStructureOCR, GPTGenerator
 
 def generate_varients(df_group):
     df_group = df_group.reset_index(drop=True)
     df_group['position'] = df_group.index + 1
-    df_group['sku'] = df_group.apply(lambda x: x['主sku编号'].strip() + "-" + x['position'], axis=1)
+    df_group['sku'] = df_group.apply(lambda x: x['主sku编号'].strip() + "-" + str(x['position']), axis=1)
     df_group['option1'] = df_group['属性值1']
     df_group['option2'] = df_group['属性值2']
     df_group['option3'] = df_group['属性值3']
@@ -117,19 +116,21 @@ def product_agg(df_group):
                         })
 
 if __name__ == '__main__':
-    translator = Translator()
+    # translator = Translator()
+    translator = None
     # orcReader = easyocr.Reader(['en', 'ch_sim'])
     orcReader = ImageStructureOCR()
     gpt_generator = GPTGenerator()
 
     df_mabang_download = pd.read_csv(download_file_path, dtype=str).fillna('').replace(r'\t', '', regex=True)
-    # df_mabang_download['唯一ID'] = 'mabang-' + df_mabang_download['唯一ID'].astype(str)
+    df_mabang_download['唯一ID'] = 'mabang-' + df_mabang_download['唯一ID'].astype(str)
     df_mabang_download['属性名3'] = ''
     df_mabang_download['属性值3'] = ''
     df_mabang_download['position'] = df_mabang_download.groupby('主sku编号').cumcount() + 1
     df_mabang_download['weight_unit'] = 'g'
+    df_mabang_download['key'] = df_mabang_download['主sku编号']
 
-    df_product_agg = df_mabang_download.groupby(['主sku编号'], as_index=False).apply(lambda df_group: product_agg(df_group)).reset_index(drop=True)
+    df_product_agg = df_mabang_download.groupby(['key']).apply(lambda df_group: product_agg(df_group)).reset_index(drop=True)
 
     period_tokens = 0
     # columns = ['master_sku_id','unique_id','product_url','main_brand','sub_brand','title_cn_ori','title_en_ori','cost_price','weight','video_url','developer','creater','creat_time','product_length','product_width','product_height','minimum_order_quantity','product_master_image_url_ori','product_window_images_url_ori','product_attribute_images_url_ori','product_description_images_url_ori','product_description_cn_ori','product_description_en_ori','supplier_name','purchase_days','varients_ori','options_ori']
@@ -149,7 +150,7 @@ if __name__ == '__main__':
                 if not images_url:
                     continue
                 for image_url in images_url.split(','):
-                    image_detect_info, image_detect_history = orcReader(images_url, image_detect_history)
+                    image_detect_info, image_detect_history = orcReader.image_detect(images_url, image_detect_history)
                     if image_detect_info.get('is_contain_chinese') == 'contain_chinese' or image_detect_info.get('is_contain_table') == 'contain_table':
                         product_images_url.append(image_url)
 
@@ -164,7 +165,7 @@ if __name__ == '__main__':
             f.write("\t".join(output))
             f.write("\n")
             if (i+1)%100==0:
-                logging.info(f"{i+1} products over")
-    logging.info(f"total process {i+1} products")
+                logger.info(f"{i+1} products over")
+    logger.info(f"total process {i+1} products")
 
 
