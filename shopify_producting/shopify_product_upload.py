@@ -10,7 +10,8 @@ import os
 
 __dir__ = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(__dir__)
-sys.path.insert(0, os.path.abspath(os.path.join(__dir__, '../..')))
+sys.path.insert(0, os.path.abspath(os.path.join(__dir__, '..')))
+sys.path.insert(1, "/home/aistudio/external-libraries")
 
 import pandas as pd
 import json
@@ -24,7 +25,6 @@ import shopify
 shopify.ShopifyResource.set_site(f"https://{SHOPIFY_API_KEY}:{SHOPIFY_PASSWORD}@{SHOPIFY_SHOP_URL}/admin")
 
 df_input = pd.read_csv(processed_file_path, sep='\t', dtype=str).fillna('')
-
 
 for i in range(len(df_input)):
     row = df_input.iloc[i, :]

@@ -2,3 +2,7 @@
 2023-09-27 22:48:46 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?limit=5
 2023-09-27 22:50:50 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?limit=5
 2023-09-27 22:50:51 - INFO - --> 200 OK 12220b
+2023-09-28 22:41:04 - INFO - start
+2023-09-28 22:41:33 - INFO - tttttttttt
+2023-09-29 01:18:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 01:18:32 - INFO - --> 201 Created 2670b

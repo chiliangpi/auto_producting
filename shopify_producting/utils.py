@@ -302,7 +302,7 @@ def variants_process(variants, orcReader, translator, image_detect_history, tran
 
         image_detect_info, image_detect_history = orcReader.image_detect(image_src, image_detect_history)
 
-        if image_detect_info.get('is_contain_chinese') == 'contain_chinese' or image_detect_info.get('is_contain_table') == 'contain_table':
+        if not(image_detect_info.get('is_contain_chinese') == 'not_contain_chinese' and image_detect_info.get('is_contain_table') == 'not_contain_table'):
             image_src = None
 
         translate_variant = {
@@ -408,7 +408,7 @@ def read_image_from_url(url):
     else:
         # 如果请求失败，输出错误信息
         print(f"Failed to retrieve image. Status code: {response.status_code}")
-        return None
+        return np.array([])
 
 # names = ['category_id'] + [f'category_{i}' for i in range(1, 8, 1)]
 # df_category = pd.read_excel(google_category_file_en, names=names).fillna('')

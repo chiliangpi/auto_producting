@@ -40,7 +40,7 @@ class ImageStructureOCR():
             detect_info = image_detect_history.get(image_src)
             return detect_info, image_detect_history
         image_array = read_image_from_url(image_src)
-        if not image_array:
+        if not np.any(image_array):
             detect_info = {'predict_result': '',
                            'is_contain_chinese': 'not open',
                            'is_contain_table': 'not open'

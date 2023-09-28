@@ -11,7 +11,8 @@ import os
 
 __dir__ = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(__dir__)
-sys.path.insert(0, os.path.abspath(os.path.join(__dir__, '../..')))
+sys.path.insert(0, os.path.abspath(os.path.join(__dir__, '..')))
+sys.path.insert(1, "/home/aistudio/external-libraries")
 
 import pandas as pd
 import json
@@ -38,7 +39,7 @@ def generate_varients(df_group):
     df_group['grams'] = df_group['子sku重量(克)']
     df_group['weight'] = df_group['子sku重量(克)'].max()
     df_group['weight_unit'] = 'g'
-    df_group['varients'] = df_group[['option1','option2','option3','price','position','image_src','grams','weight','weight_unit']].to_dict(orient='records')
+    df_group['varients'] = df_group[['sku','option1','option2','option3','price','position','image_src','grams','weight','weight_unit']].to_dict(orient='records')
     return json.dumps(df_group['varients'].tolist(), ensure_ascii=False)
 
 def generate_options(df_group):
@@ -151,12 +152,12 @@ if __name__ == '__main__':
                     continue
                 for image_url in images_url.split(','):
                     image_detect_info, image_detect_history = orcReader.image_detect(images_url, image_detect_history)
-                    if image_detect_info.get('is_contain_chinese') == 'contain_chinese' or image_detect_info.get('is_contain_table') == 'contain_table':
+                    if image_detect_info.get('is_contain_chinese') == 'not_contain_chinese' or image_detect_info.get('is_contain_table') == 'not_contain_table':
                         product_images_url.append(image_url)
 
             product_master_image_url = product_images_url[0] if product_images_url else ''
 
-            gpt_result_json, usage_tokens = gpt_generator(row.title_cn_ori, row.product_description_cn_ori, model='gpt-3.5-turbo-0613')
+            gpt_result_json, usage_tokens = gpt_generator.openai_generate(row.title_cn_ori, row.product_description_cn_ori, model='gpt-3.5-turbo-0613')
             period_tokens += usage_tokens
             if (i+1) % 3000 == 0 or (period_tokens+1) % 90000 == 0:
                 time.sleep(10)
