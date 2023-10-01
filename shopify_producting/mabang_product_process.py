@@ -74,9 +74,9 @@ def product_agg(df_group):
     product_height = df_group['产品高度'].max()
     minimum_order_quantity = df_group['起订量'].max()
     product_master_image_url_ori = df_group['产品主图'].max().strip(',')
-    product_window_images_url_ori = re.sub(r'[\n\r]', '',df_group['橱窗图'].max()).strip(',')
-    product_attribute_images_url_ori = re.sub(r'[\n\r]', '', df_group['多属性图'].max()).strip(',')
-    product_description_images_url_ori = re.sub(r'[\n\r]', '',df_group['描述图'].max()).strip(',')
+    product_window_image_urls_ori = re.sub(r'[\n\r]', '',df_group['橱窗图'].max()).strip(',')
+    product_attribute_image_urls_ori = re.sub(r'[\n\r]', '', df_group['多属性图'].max()).strip(',')
+    product_description_image_urls_ori = re.sub(r'[\n\r]', '',df_group['描述图'].max()).strip(',')
     product_description_cn_ori = df_group['纯文本描述(中文)'].max()
     product_description_cn_ori = re.sub(r'[\n\r]', ';', product_description_cn_ori).strip()
     product_description_en_ori = df_group['纯文本描述(英文)'].max().strip()
@@ -105,9 +105,9 @@ def product_agg(df_group):
                         'product_height': [product_height],
                         'minimum_order_quantity': [minimum_order_quantity],
                         'product_master_image_url_ori': [product_master_image_url_ori],
-                        'product_window_images_url_ori': [product_window_images_url_ori],
-                        'product_attribute_images_url_ori': [product_attribute_images_url_ori],
-                        'product_description_images_url_ori': [product_description_images_url_ori],
+                        'product_window_image_urls_ori': [product_window_image_urls_ori],
+                        'product_attribute_image_urls_ori': [product_attribute_image_urls_ori],
+                        'product_description_image_urls_ori': [product_description_image_urls_ori],
                         'product_description_cn_ori': [product_description_cn_ori],
                         'product_description_en_ori': [product_description_en_ori],
                         'supplier_name': [supplier_name],
@@ -134,8 +134,8 @@ if __name__ == '__main__':
     df_product_agg = df_mabang_download.groupby(['key']).apply(lambda df_group: product_agg(df_group)).reset_index(drop=True)
 
     period_tokens = 0
-    # columns = ['master_sku_id','unique_id','product_url','main_brand','sub_brand','title_cn_ori','title_en_ori','cost_price','weight','video_url','developer','creater','creat_time','product_length','product_width','product_height','minimum_order_quantity','product_master_image_url_ori','product_window_images_url_ori','product_attribute_images_url_ori','product_description_images_url_ori','product_description_cn_ori','product_description_en_ori','supplier_name','purchase_days','varients_ori','options_ori']
-    columns = list(df_product_agg.columns) + ['variants', 'options', 'product_master_image_url', 'product_images_url', 'gpt_result_json']
+    # columns = ['master_sku_id','unique_id','product_url','main_brand','sub_brand','title_cn_ori','title_en_ori','cost_price','weight','video_url','developer','creater','creat_time','product_length','product_width','product_height','minimum_order_quantity','product_master_image_url_ori','product_window_image_urls_ori','product_attribute_image_urls_ori','product_description_image_urls_ori','product_description_cn_ori','product_description_en_ori','supplier_name','purchase_days','varients_ori','options_ori']
+    columns = list(df_product_agg.columns) + ['variants', 'options', 'product_master_image_url', 'product_image_urls', 'gpt_result_json']
     with open(processed_file_path, 'w') as f:
         f.write('\t'.join(columns))
         f.write('\n')
@@ -146,23 +146,23 @@ if __name__ == '__main__':
             variants, image_detect_history, translate_history = variants_process(row.varients_ori, orcReader, translator, image_detect_history, translate_history)
             options, translate_history = options_process(row.options_ori, translator, translate_history)
 
-            product_images_url = []
-            for images_url in [row.product_master_image_url_ori, row.product_window_images_url_ori, row.product_attribute_images_url_ori]:
-                if not images_url:
+            product_image_urls = []
+            for image_urls in [row.product_master_image_url_ori, row.product_window_image_urls_ori, row.product_attribute_image_urls_ori]:
+                if not image_urls:
                     continue
-                for image_url in images_url.split(','):
-                    image_detect_info, image_detect_history = orcReader.image_detect(images_url, image_detect_history)
-                    if image_detect_info.get('is_contain_chinese') == 'not_contain_chinese' or image_detect_info.get('is_contain_table') == 'not_contain_table':
-                        product_images_url.append(image_url)
+                for image_url in image_urls.split(','):
+                    image_detect_info, image_detect_history = orcReader.image_detect(image_url, image_detect_history)
+                    if image_detect_info.get('is_contain_chinese') == 'not_contain_chinese' and image_detect_info.get('is_contain_table') == 'not_contain_table':
+                        product_image_urls.append(image_url)
 
-            product_master_image_url = product_images_url[0] if product_images_url else ''
+            product_master_image_url = product_image_urls[0] if product_image_urls else ''
 
             gpt_result_json, usage_tokens = gpt_generator.openai_generate(row.title_cn_ori, row.product_description_cn_ori, model='gpt-3.5-turbo-0613')
             period_tokens += usage_tokens
             if (i+1) % 3000 == 0 or (period_tokens+1) % 90000 == 0:
                 time.sleep(10)
 
-            output = row.astype('str').tolist() + [variants, options, product_master_image_url, ','.join(product_images_url), gpt_result_json]
+            output = row.astype('str').tolist() + [variants, options, product_master_image_url, ','.join(product_image_urls), gpt_result_json]
             f.write("\t".join(output))
             f.write("\n")
             if (i+1)%100==0:

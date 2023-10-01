@@ -6,3 +6,919 @@
 2023-09-28 22:41:33 - INFO - tttttttttt
 2023-09-29 01:18:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
 2023-09-29 01:18:32 - INFO - --> 201 Created 2670b
+2023-09-29 02:07:52 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 02:07:56 - INFO - --> 201 Created 3921b
+2023-09-29 02:13:40 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 02:13:41 - INFO - --> 200 OK 24935b
+2023-09-29 02:16:29 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 02:16:30 - INFO - --> 200 OK 12220b
+2023-09-29 02:17:07 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 02:17:11 - INFO - --> 201 Created 3919b
+2023-09-29 02:31:45 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 02:31:49 - INFO - --> 201 Created 3995b
+2023-09-29 02:51:52 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 02:51:56 - INFO - --> 201 Created 3987b
+2023-09-29 10:52:00 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8792787812674/id.json
+2023-09-29 10:52:25 - INFO - GET https://075bc9-3.myshopify.com/admin/variants/8792787812674.json
+2023-09-29 11:01:02 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:01:06 - INFO - --> 201 Created 3987b
+2023-09-29 11:06:48 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:06:53 - INFO - --> 201 Created 3987b
+2023-09-29 11:07:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:07:39 - INFO - --> 201 Created 3987b
+2023-09-29 11:26:02 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:26:06 - INFO - --> 201 Created 3987b
+2023-09-29 11:29:34 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:29:39 - INFO - --> 201 Created 3995b
+2023-09-29 11:31:00 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:31:05 - INFO - --> 201 Created 3987b
+2023-09-29 11:32:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:32:38 - INFO - --> 201 Created 3995b
+2023-09-29 11:44:27 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 11:44:28 - INFO - --> 201 Created 1172b
+2023-09-29 13:47:25 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8793671991618/images.json
+2023-09-29 13:48:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8793671991618/images.json
+2023-09-29 13:48:32 - INFO - --> 200 OK 449b
+2023-09-29 13:51:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8793671991618/images.json
+2023-09-29 13:51:26 - INFO - --> 200 OK 409b
+2023-09-29 13:51:58 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8793671991618/images.json
+2023-09-29 13:52:01 - INFO - --> 200 OK 446b
+2023-09-29 14:13:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:13:44 - INFO - --> 201 Created 2665b
+2023-09-29 14:14:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794051313986/images.json
+2023-09-29 14:14:16 - INFO - --> 200 OK 449b
+2023-09-29 14:14:50 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794051313986/images.json
+2023-09-29 14:14:53 - INFO - --> 200 OK 449b
+2023-09-29 14:15:40 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:15:41 - INFO - --> 201 Created 2665b
+2023-09-29 14:15:41 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794054132034/images.json
+2023-09-29 14:15:44 - INFO - --> 200 OK 449b
+2023-09-29 14:15:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794054132034/images.json
+2023-09-29 14:15:47 - INFO - --> 200 OK 449b
+2023-09-29 14:17:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:17:27 - INFO - --> 201 Created 2665b
+2023-09-29 14:17:27 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794056753474/images.json
+2023-09-29 14:17:30 - INFO - --> 200 OK 449b
+2023-09-29 14:17:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794056753474/images.json
+2023-09-29 14:17:33 - INFO - --> 200 OK 449b
+2023-09-29 14:18:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794056753474/variants.json
+2023-09-29 14:18:44 - INFO - --> 201 Created 666b
+2023-09-29 14:21:43 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:21:44 - INFO - --> 201 Created 2662b
+2023-09-29 14:21:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794063601986/images.json
+2023-09-29 14:21:47 - INFO - --> 200 OK 412b
+2023-09-29 14:21:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794063601986/images.json
+2023-09-29 14:21:49 - INFO - --> 200 OK 449b
+2023-09-29 14:21:49 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794063601986/variants.json
+2023-09-29 14:21:50 - INFO - --> 201 Created 666b
+2023-09-29 14:21:50 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794063601986.json
+2023-09-29 14:21:52 - INFO - --> 200 OK 3915b
+2023-09-29 14:21:52 - INFO - product_title=Fashionable Heart-shaped Necklace upload succeed
+2023-09-29 14:21:52 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:21:52 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-29 14:22:48 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:22:49 - INFO - --> 201 Created 2664b
+2023-09-29 14:22:49 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794065142082/images.json
+2023-09-29 14:22:52 - INFO - --> 200 OK 449b
+2023-09-29 14:22:52 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794065142082/images.json
+2023-09-29 14:22:54 - INFO - --> 200 OK 449b
+2023-09-29 14:22:54 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794065142082/variants.json
+2023-09-29 14:22:55 - INFO - --> 201 Created 666b
+2023-09-29 14:22:55 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794065142082.json
+2023-09-29 14:22:56 - INFO - --> 200 OK 3991b
+2023-09-29 14:22:56 - INFO - product_title=Fashionable Heart-shaped Necklace upload succeed
+2023-09-29 14:22:56 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:22:57 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-29 14:23:18 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 14:23:20 - INFO - --> 201 Created 2664b
+2023-09-29 14:23:24 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794065928514/images.json
+2023-09-29 14:23:27 - INFO - --> 200 OK 449b
+2023-09-29 14:23:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794065928514/images.json
+2023-09-29 14:23:33 - INFO - --> 200 OK 449b
+2023-09-29 14:23:52 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794065928514/variants.json
+2023-09-29 14:23:53 - INFO - --> 201 Created 666b
+2023-09-29 14:23:57 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794065928514.json
+2023-09-29 14:23:58 - INFO - --> 200 OK 3991b
+2023-09-29 14:24:02 - INFO - product_title=Fashionable Heart-shaped Necklace upload succeed
+2023-09-29 16:08:22 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:08:28 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-29 16:08:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:08:43 - INFO - --> 201 Created 2664b
+2023-09-29 16:18:07 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794247201090/images.json
+2023-09-29 16:18:10 - INFO - --> 200 OK 449b
+2023-09-29 16:18:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794247201090/images.json
+2023-09-29 16:18:15 - INFO - --> 200 OK 449b
+2023-09-29 16:18:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794247201090/variants.json
+2023-09-29 16:18:21 - INFO - --> 201 Created 666b
+2023-09-29 16:18:23 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794247201090.json
+2023-09-29 16:18:24 - INFO - --> 200 OK 3991b
+2023-09-29 16:18:25 - INFO - product_title=Fashionable Heart-shaped Necklace upload succeed
+2023-09-29 16:18:32 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:19:34 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:21:21 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:21:22 - INFO - --> 201 Created 1170b
+2023-09-29 16:23:14 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:23:15 - INFO - --> 201 Created 2664b
+2023-09-29 16:23:15 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794283016514/images.json
+2023-09-29 16:23:17 - INFO - --> 200 OK 449b
+2023-09-29 16:23:17 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794283016514/images.json
+2023-09-29 16:23:20 - INFO - --> 200 OK 449b
+2023-09-29 16:23:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794283016514/variants.json
+2023-09-29 16:23:21 - INFO - --> 201 Created 666b
+2023-09-29 16:23:21 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794283016514.json
+2023-09-29 16:23:22 - INFO - --> 200 OK 3991b
+2023-09-29 16:23:22 - INFO - product_title=Fashionable Heart-shaped Necklace0 upload succeed
+2023-09-29 16:23:22 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:23:23 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-29 16:23:29 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:23:30 - INFO - --> 201 Created 2666b
+2023-09-29 16:23:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794283409730/images.json
+2023-09-29 16:23:33 - INFO - --> 200 OK 449b
+2023-09-29 16:23:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794283409730/images.json
+2023-09-29 16:23:35 - INFO - --> 200 OK 449b
+2023-09-29 16:23:38 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794283409730/variants.json
+2023-09-29 16:23:39 - INFO - --> 201 Created 666b
+2023-09-29 16:23:41 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794283409730.json
+2023-09-29 16:23:42 - INFO - --> 200 OK 3993b
+2023-09-29 16:23:43 - INFO - product_title=Fashionable Heart-shaped Necklace0 upload succeed
+2023-09-29 16:23:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:23:48 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-29 16:23:55 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:23:56 - INFO - --> 201 Created 2666b
+2023-09-29 16:23:56 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794284032322/images.json
+2023-09-29 16:23:59 - INFO - --> 200 OK 449b
+2023-09-29 16:23:59 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794284032322/images.json
+2023-09-29 16:24:01 - INFO - --> 200 OK 449b
+2023-09-29 16:24:06 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794284032322/variants.json
+2023-09-29 16:24:07 - INFO - --> 201 Created 666b
+2023-09-29 16:24:09 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794284032322.json
+2023-09-29 16:24:11 - INFO - --> 200 OK 3993b
+2023-09-29 16:24:12 - INFO - product_title=Fashionable Heart-shaped Necklace0 upload succeed
+2023-09-29 16:24:19 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:26:08 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:27:18 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:29:53 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?title=Fashionable+Heart-shaped+Necklace1
+2023-09-29 16:29:54 - INFO - --> 200 OK 15b
+2023-09-29 16:30:35 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?title=Fashionable+Heart-shaped+Necklace
+2023-09-29 16:30:35 - INFO - --> 200 OK 15858b
+2023-09-29 16:50:46 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:50:47 - INFO - --> 201 Created 2664b
+2023-09-29 16:50:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794324009282/images.json
+2023-09-29 16:50:49 - INFO - --> 200 OK 412b
+2023-09-29 16:50:49 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794324009282/images.json
+2023-09-29 16:50:51 - INFO - --> 200 OK 449b
+2023-09-29 16:50:51 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794324009282/variants.json
+2023-09-29 16:50:52 - INFO - --> 201 Created 666b
+2023-09-29 16:50:52 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794324009282.json
+2023-09-29 16:50:53 - INFO - --> 200 OK 3917b
+2023-09-29 16:50:53 - INFO - product_title=Fashionable Heart-shaped Necklace0 upload succeed
+2023-09-29 16:50:53 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:50:54 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-29 16:52:28 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:52:29 - INFO - --> 201 Created 2599b
+2023-09-29 16:52:29 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794327941442/images.json
+2023-09-29 16:52:31 - INFO - --> 200 OK 412b
+2023-09-29 16:52:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794327941442/images.json
+2023-09-29 16:52:33 - INFO - --> 200 OK 449b
+2023-09-29 16:52:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794327941442/variants.json
+2023-09-29 16:52:34 - INFO - --> 201 Created 666b
+2023-09-29 16:52:34 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794327941442.json
+2023-09-29 16:52:35 - INFO - --> 200 OK 3852b
+2023-09-29 16:52:35 - INFO - product_title=0 upload succeed
+2023-09-29 16:52:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:52:36 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-29 16:55:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:55:27 - INFO - --> 201 Created 2599b
+2023-09-29 16:55:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794336330050/images.json
+2023-09-29 16:55:35 - INFO - --> 200 OK 412b
+2023-09-29 16:55:37 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794336330050/images.json
+2023-09-29 16:55:39 - INFO - --> 200 OK 449b
+2023-09-29 16:55:43 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794336330050/variants.json
+2023-09-29 16:55:44 - INFO - --> 201 Created 666b
+2023-09-29 16:55:47 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794336330050.json
+2023-09-29 16:55:48 - INFO - --> 200 OK 3852b
+2023-09-29 16:55:51 - INFO - product_title=0 upload succeed
+2023-09-29 16:56:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 16:57:48 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?title=1
+2023-09-29 16:57:49 - INFO - --> 200 OK 15b
+2023-09-29 16:57:54 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?title=1
+2023-09-29 16:57:55 - INFO - --> 200 OK 15b
+2023-09-29 16:58:03 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?title=0
+2023-09-29 16:58:03 - INFO - --> 200 OK 3855b
+2023-09-29 16:58:13 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?title=0
+2023-09-29 16:58:14 - INFO - --> 200 OK 3855b
+2023-09-29 16:58:27 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:00:03 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:01:00 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:01:48 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:01:49 - INFO - --> 201 Created 1209b
+2023-09-29 17:02:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:04:04 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:04:05 - INFO - --> 201 Created 1209b
+2023-09-29 17:06:11 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:15:59 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:16:00 - INFO - --> 201 Created 2597b
+2023-09-29 17:16:00 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 17:16:16 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 17:16:17 - INFO - --> 201 Created 2599b
+2023-09-29 17:17:54 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 18:15:16 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:15:18 - INFO - --> 201 Created 2597b
+2023-09-29 18:15:18 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794478575938/images.json
+2023-09-29 18:15:20 - INFO - --> 200 OK 412b
+2023-09-29 18:15:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794478575938/images.json
+2023-09-29 18:15:22 - INFO - --> 200 OK 449b
+2023-09-29 18:15:22 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794478575938/variants.json
+2023-09-29 18:15:23 - INFO - --> 201 Created 666b
+2023-09-29 18:15:32 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:15:33 - INFO - --> 201 Created 2599b
+2023-09-29 18:15:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479034690/images.json
+2023-09-29 18:15:35 - INFO - --> 200 OK 449b
+2023-09-29 18:15:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479034690/images.json
+2023-09-29 18:15:37 - INFO - --> 200 OK 449b
+2023-09-29 18:15:37 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479034690/variants.json
+2023-09-29 18:15:38 - INFO - --> 201 Created 666b
+2023-09-29 18:15:38 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794479034690.json
+2023-09-29 18:15:39 - INFO - --> 200 OK 3926b
+2023-09-29 18:15:39 - INFO - product_title=0 upload succeed
+2023-09-29 18:15:39 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:15:40 - INFO - --> 201 Created 2597b
+2023-09-29 18:15:40 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479231298/images.json
+2023-09-29 18:15:44 - INFO - --> 200 OK 412b
+2023-09-29 18:15:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479231298/images.json
+2023-09-29 18:15:48 - INFO - --> 200 OK 412b
+2023-09-29 18:15:48 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479231298/images.json
+2023-09-29 18:15:51 - INFO - --> 200 OK 412b
+2023-09-29 18:15:51 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479231298/variants.json
+2023-09-29 18:15:52 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794479231298.json
+2023-09-29 18:15:53 - INFO - --> 200 OK 4216b
+2023-09-29 18:15:53 - INFO - product_title=1 upload succeed
+2023-09-29 18:15:53 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:15:54 - INFO - --> 201 Created 2597b
+2023-09-29 18:15:54 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:15:57 - INFO - --> 200 OK 412b
+2023-09-29 18:15:57 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:16:00 - INFO - --> 200 OK 449b
+2023-09-29 18:16:00 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:16:04 - INFO - --> 200 OK 412b
+2023-09-29 18:16:04 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:16:07 - INFO - --> 200 OK 412b
+2023-09-29 18:16:07 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:16:13 - INFO - --> 200 OK 412b
+2023-09-29 18:16:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:16:16 - INFO - --> 200 OK 400b
+2023-09-29 18:16:16 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:16:19 - INFO - --> 200 OK 412b
+2023-09-29 18:16:19 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/images.json
+2023-09-29 18:16:23 - INFO - --> 200 OK 412b
+2023-09-29 18:16:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/variants.json
+2023-09-29 18:16:24 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/variants.json
+2023-09-29 18:16:24 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/variants.json
+2023-09-29 18:16:25 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/variants.json
+2023-09-29 18:16:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/variants.json
+2023-09-29 18:16:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794479722818/variants.json
+2023-09-29 18:16:27 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794479722818.json
+2023-09-29 18:16:28 - INFO - --> 200 OK 9583b
+2023-09-29 18:16:28 - INFO - product_title=2 upload succeed
+2023-09-29 18:16:28 - INFO - total upload 3 products
+2023-09-29 18:17:15 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:17:17 - INFO - --> 201 Created 2599b
+2023-09-29 18:21:01 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:21:02 - INFO - --> 201 Created 2597b
+2023-09-29 18:21:08 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794487357762/images.json
+2023-09-29 18:21:10 - INFO - --> 200 OK 412b
+2023-09-29 18:21:10 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794487357762/images.json
+2023-09-29 18:21:13 - INFO - --> 200 OK 449b
+2023-09-29 18:21:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794487357762/variants.json
+2023-09-29 18:21:14 - INFO - --> 201 Created 666b
+2023-09-29 18:21:17 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 18:25:02 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:25:03 - INFO - --> 201 Created 2597b
+2023-09-29 18:25:03 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794495877442/images.json
+2023-09-29 18:25:06 - INFO - --> 200 OK 412b
+2023-09-29 18:25:06 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794495877442/images.json
+2023-09-29 18:25:08 - INFO - --> 200 OK 449b
+2023-09-29 18:25:08 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794495877442/variants.json
+2023-09-29 18:25:09 - INFO - --> 201 Created 666b
+2023-09-29 18:25:13 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 18:26:06 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:26:07 - INFO - --> 201 Created 2599b
+2023-09-29 18:26:07 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794497876290/images.json
+2023-09-29 18:26:09 - INFO - --> 200 OK 449b
+2023-09-29 18:26:09 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794497876290/images.json
+2023-09-29 18:26:11 - INFO - --> 200 OK 449b
+2023-09-29 18:26:11 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794497876290/variants.json
+2023-09-29 18:26:12 - INFO - --> 201 Created 666b
+2023-09-29 18:26:27 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 18:26:59 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 18:37:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:37:31 - INFO - --> 201 Created 2598b
+2023-09-29 18:37:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794517209410/images.json
+2023-09-29 18:37:36 - INFO - --> 200 OK 412b
+2023-09-29 18:37:36 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794517209410/images.json
+2023-09-29 18:37:38 - INFO - --> 200 OK 449b
+2023-09-29 18:37:38 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794517209410/variants.json
+2023-09-29 18:37:39 - INFO - --> 201 Created 666b
+2023-09-29 18:37:39 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794517209410.json
+2023-09-29 18:37:40 - INFO - --> 200 OK 3851b
+2023-09-29 18:37:40 - INFO - product_title=0 upload succeed
+2023-09-29 18:37:43 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:38:15 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:38:16 - INFO - --> 201 Created 2600b
+2023-09-29 18:38:17 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794518585666/images.json
+2023-09-29 18:38:20 - INFO - --> 200 OK 449b
+2023-09-29 18:38:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794518585666/images.json
+2023-09-29 18:38:22 - INFO - --> 200 OK 449b
+2023-09-29 18:38:22 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794518585666/variants.json
+2023-09-29 18:38:23 - INFO - --> 201 Created 666b
+2023-09-29 18:38:23 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794518585666.json
+2023-09-29 18:38:24 - INFO - --> 200 OK 3927b
+2023-09-29 18:38:24 - INFO - product_title=0 upload succeed
+2023-09-29 18:38:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:39:02 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:39:03 - INFO - --> 201 Created 2595b
+2023-09-29 18:39:06 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794523337026/images.json
+2023-09-29 18:39:08 - INFO - --> 200 OK 449b
+2023-09-29 18:39:08 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794523337026/images.json
+2023-09-29 18:39:11 - INFO - --> 200 OK 449b
+2023-09-29 18:39:11 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794523337026/variants.json
+2023-09-29 18:39:12 - INFO - --> 201 Created 666b
+2023-09-29 18:39:12 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794523337026.json
+2023-09-29 18:39:13 - INFO - --> 200 OK 3922b
+2023-09-29 18:39:13 - INFO - product_title=0 upload succeed
+2023-09-29 18:39:15 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:42:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:42:32 - INFO - --> 201 Created 1207b
+2023-09-29 18:42:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794528776514/images.json
+2023-09-29 18:42:38 - INFO - --> 200 OK 449b
+2023-09-29 18:42:38 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794528776514/images.json
+2023-09-29 18:42:40 - INFO - --> 200 OK 449b
+2023-09-29 18:42:40 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794528776514/variants.json
+2023-09-29 18:42:41 - INFO - --> 201 Created 666b
+2023-09-29 18:42:41 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794528776514.json
+2023-09-29 18:42:43 - INFO - --> 200 OK 2534b
+2023-09-29 18:42:43 - INFO - product_title=0 upload succeed
+2023-09-29 18:42:45 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:43:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 18:43:24 - INFO - --> 201 Created 1205b
+2023-09-29 18:43:27 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794529661250/images.json
+2023-09-29 18:43:29 - INFO - --> 200 OK 412b
+2023-09-29 18:43:29 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794529661250/images.json
+2023-09-29 18:43:32 - INFO - --> 200 OK 449b
+2023-09-29 18:43:32 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794529661250/variants.json
+2023-09-29 18:43:33 - INFO - --> 201 Created 666b
+2023-09-29 18:43:33 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794529661250.json
+2023-09-29 18:43:34 - INFO - --> 200 OK 2458b
+2023-09-29 18:43:34 - INFO - product_title=0 upload succeed
+2023-09-29 18:43:50 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:14:24 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:14:25 - INFO - --> 200 OK 14667b
+2023-09-29 21:16:51 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:16:52 - INFO - --> 200 OK 12220b
+2023-09-29 21:21:54 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:21:55 - INFO - --> 200 OK 12220b
+2023-09-29 21:22:21 - INFO - GET https://075bc9-3.myshopify.com/admin/smart_collections.json?product_id=8781771964738
+2023-09-29 21:22:22 - INFO - --> 200 OK 24b
+2023-09-29 21:22:44 - INFO - GET https://075bc9-3.myshopify.com/admin/custom_collections.json?product_id=8781771964738
+2023-09-29 21:22:45 - INFO - --> 200 OK 328b
+2023-09-29 21:22:52 - INFO - GET https://075bc9-3.myshopify.com/admin/custom_collections.json?product_id=8781771964738
+2023-09-29 21:22:53 - INFO - --> 200 OK 328b
+2023-09-29 21:22:56 - INFO - GET https://075bc9-3.myshopify.com/admin/custom_collections.json?product_id=8781771964738
+2023-09-29 21:22:57 - INFO - --> 200 OK 328b
+2023-09-29 21:22:57 - INFO - GET https://075bc9-3.myshopify.com/admin/custom_collections.json?product_id=8781771964738
+2023-09-29 21:22:58 - INFO - --> 200 OK 328b
+2023-09-29 21:22:58 - INFO - GET https://075bc9-3.myshopify.com/admin/custom_collections.json?product_id=8781771964738
+2023-09-29 21:22:58 - INFO - --> 200 OK 328b
+2023-09-29 21:22:58 - INFO - GET https://075bc9-3.myshopify.com/admin/custom_collections.json?product_id=8781771964738
+2023-09-29 21:22:59 - INFO - --> 200 OK 328b
+2023-09-29 21:23:00 - INFO - GET https://075bc9-3.myshopify.com/admin/custom_collections.json?product_id=8781771964738
+2023-09-29 21:23:00 - INFO - --> 200 OK 328b
+2023-09-29 21:50:29 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:50:30 - INFO - --> 201 Created 1205b
+2023-09-29 21:54:19 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794877493570/images.json
+2023-09-29 21:54:22 - INFO - --> 200 OK 412b
+2023-09-29 21:54:22 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794877493570/images.json
+2023-09-29 21:54:25 - INFO - --> 200 OK 449b
+2023-09-29 21:54:25 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794877493570/variants.json
+2023-09-29 21:54:25 - INFO - --> 201 Created 666b
+2023-09-29 21:55:40 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:55:41 - INFO - --> 201 Created 1205b
+2023-09-29 21:55:41 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794881425730/images.json
+2023-09-29 21:55:43 - INFO - --> 200 OK 412b
+2023-09-29 21:55:43 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794881425730/images.json
+2023-09-29 21:55:46 - INFO - --> 200 OK 449b
+2023-09-29 21:55:46 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794881425730/variants.json
+2023-09-29 21:55:48 - INFO - --> 201 Created 666b
+2023-09-29 21:55:48 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794881425730.json
+2023-09-29 21:55:49 - INFO - --> 200 OK 2458b
+2023-09-29 21:55:49 - INFO - product_title=0 upload succeed
+2023-09-29 21:56:03 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:56:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 21:56:24 - INFO - --> 201 Created 1207b
+2023-09-29 21:56:24 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794881982786/images.json
+2023-09-29 21:56:27 - INFO - --> 200 OK 449b
+2023-09-29 21:56:27 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794881982786/images.json
+2023-09-29 21:56:30 - INFO - --> 200 OK 449b
+2023-09-29 21:56:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794881982786/variants.json
+2023-09-29 21:56:31 - INFO - --> 201 Created 666b
+2023-09-29 21:56:31 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794881982786.json
+2023-09-29 21:56:32 - INFO - --> 200 OK 2534b
+2023-09-29 21:56:32 - INFO - product_title=0 upload succeed
+2023-09-29 22:02:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:04:51 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:04:52 - INFO - --> 201 Created 1212b
+2023-09-29 22:05:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794888503618/images.json
+2023-09-29 22:05:17 - INFO - --> 200 OK 449b
+2023-09-29 22:05:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794888503618/images.json
+2023-09-29 22:05:45 - INFO - --> 200 OK 449b
+2023-09-29 22:05:53 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794888503618/variants.json
+2023-09-29 22:05:54 - INFO - --> 201 Created 666b
+2023-09-29 22:05:54 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794888503618.json
+2023-09-29 22:05:55 - INFO - --> 200 OK 2539b
+2023-09-29 22:05:55 - INFO - product_title=0 upload succeed
+2023-09-29 22:06:02 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:17:25 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:17:26 - INFO - --> 201 Created 1212b
+2023-09-29 22:17:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898039106/images.json
+2023-09-29 22:17:30 - INFO - --> 200 OK 449b
+2023-09-29 22:17:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898039106/images.json
+2023-09-29 22:17:32 - INFO - --> 200 OK 449b
+2023-09-29 22:17:32 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898039106/variants.json
+2023-09-29 22:17:33 - INFO - --> 201 Created 666b
+2023-09-29 22:17:33 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794898039106.json
+2023-09-29 22:17:35 - INFO - --> 200 OK 2539b
+2023-09-29 22:17:35 - INFO - product_title=0 upload succeed
+2023-09-29 22:17:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:17:36 - INFO - --> 201 Created 1210b
+2023-09-29 22:17:36 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898202946/images.json
+2023-09-29 22:17:39 - INFO - --> 200 OK 412b
+2023-09-29 22:17:39 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898202946/images.json
+2023-09-29 22:17:42 - INFO - --> 200 OK 412b
+2023-09-29 22:17:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898202946/images.json
+2023-09-29 22:17:45 - INFO - --> 200 OK 412b
+2023-09-29 22:17:45 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898202946/variants.json
+2023-09-29 22:17:46 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794898202946.json
+2023-09-29 22:17:47 - INFO - --> 200 OK 2829b
+2023-09-29 22:17:47 - INFO - product_title=1 upload succeed
+2023-09-29 22:17:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:17:48 - INFO - --> 201 Created 1210b
+2023-09-29 22:17:48 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:17:52 - INFO - --> 200 OK 412b
+2023-09-29 22:17:52 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:17:54 - INFO - --> 200 OK 449b
+2023-09-29 22:17:54 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:17:59 - INFO - --> 200 OK 412b
+2023-09-29 22:17:59 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:18:02 - INFO - --> 200 OK 412b
+2023-09-29 22:18:02 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:18:06 - INFO - --> 200 OK 412b
+2023-09-29 22:18:06 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:18:09 - INFO - --> 200 OK 400b
+2023-09-29 22:18:09 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:18:13 - INFO - --> 200 OK 412b
+2023-09-29 22:18:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/images.json
+2023-09-29 22:18:17 - INFO - --> 200 OK 412b
+2023-09-29 22:18:17 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/variants.json
+2023-09-29 22:18:17 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/variants.json
+2023-09-29 22:18:18 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/variants.json
+2023-09-29 22:18:19 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/variants.json
+2023-09-29 22:18:19 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/variants.json
+2023-09-29 22:18:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794898596162/variants.json
+2023-09-29 22:18:21 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794898596162.json
+2023-09-29 22:18:22 - INFO - --> 200 OK 8196b
+2023-09-29 22:18:22 - INFO - product_title=2 upload succeed
+2023-09-29 22:18:22 - INFO - total upload 3 products
+2023-09-29 22:20:03 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:20:04 - INFO - --> 201 Created 1212b
+2023-09-29 22:22:42 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:23:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:23:21 - INFO - --> 201 Created 1212b
+2023-09-29 22:23:49 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:23:50 - INFO - --> 201 Created 1212b
+2023-09-29 22:24:31 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:25:05 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:25:06 - INFO - --> 201 Created 1212b
+2023-09-29 22:29:33 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:30:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:30:27 - INFO - --> 201 Created 1212b
+2023-09-29 22:30:31 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:31:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:31:32 - INFO - --> 201 Created 1212b
+2023-09-29 22:41:17 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:58:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-29 22:58:43 - INFO - --> 201 Created 1213b
+2023-09-29 22:58:43 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794975404354/images.json
+2023-09-29 22:58:45 - INFO - --> 200 OK 449b
+2023-09-29 22:58:45 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794975404354/images.json
+2023-09-29 22:58:48 - INFO - --> 200 OK 449b
+2023-09-29 22:58:48 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8794975404354/variants.json
+2023-09-29 22:58:48 - INFO - --> 201 Created 666b
+2023-09-29 22:58:59 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:59:23 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:59:37 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 22:59:59 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 23:00:07 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 23:00:30 - INFO - PUT https://075bc9-3.myshopify.com/admin/options/8794975404354.json
+2023-09-29 23:00:47 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-29 23:00:59 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8794975404354.json
+2023-09-29 23:01:00 - INFO - --> 200 OK 2540b
+2023-09-29 23:01:11 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-30 02:01:38 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:02:34 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:02:37 - INFO - POST https://075bc9-3.myshopify.com/admin/images.json
+2023-09-30 02:03:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:05:50 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:08:09 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:08:11 - INFO - --> 200 OK 42984b
+2023-09-30 02:09:23 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-30 02:10:19 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-30 02:13:10 - INFO - POST https://075bc9-3.myshopify.com/admin/options.json
+2023-09-30 02:35:04 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:35:06 - INFO - --> 201 Created 1213b
+2023-09-30 02:36:37 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:36:39 - INFO - --> 201 Created 1213b
+2023-09-30 02:36:48 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:36:49 - INFO - --> 201 Created 1213b
+2023-09-30 02:37:05 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:37:06 - INFO - --> 201 Created 1213b
+2023-09-30 02:37:21 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:37:22 - INFO - --> 201 Created 1213b
+2023-09-30 02:38:36 - INFO - POST https://075bc9-3.myshopify.com/admin/products.json
+2023-09-30 02:38:37 - INFO - --> 201 Created 1213b
+2023-09-30 20:33:02 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?product_id=8804585865538
+2023-09-30 20:41:46 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?product_id=8804640522562
+2023-09-30 20:41:48 - INFO - --> 200 OK 31311b
+2023-09-30 20:41:53 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8804640522562/images.json
+2023-09-30 20:41:56 - INFO - --> 200 OK 449b
+2023-09-30 20:42:10 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8804640522562/images.json
+2023-09-30 20:42:13 - INFO - --> 200 OK 449b
+2023-09-30 20:42:38 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8804640522562/variants.json
+2023-09-30 20:42:39 - INFO - --> 201 Created 666b
+2023-09-30 20:43:31 - INFO - GET https://075bc9-3.myshopify.com/admin/products.json?product_id=8804838932802
+2023-09-30 20:43:33 - INFO - --> 200 OK 35959b
+2023-09-30 20:43:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8804838932802/images.json
+2023-09-30 20:43:35 - INFO - --> 200 OK 449b
+2023-09-30 20:43:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8804838932802/images.json
+2023-09-30 20:43:38 - INFO - --> 200 OK 449b
+2023-09-30 20:43:38 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8804838932802/variants.json
+2023-09-30 20:43:39 - INFO - --> 201 Created 666b
+2023-09-30 20:51:42 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8804838932802.json
+2023-09-30 20:51:43 - INFO - --> 200 OK 4659b
+2023-09-30 20:51:53 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805022269762.json
+2023-09-30 20:51:54 - INFO - --> 200 OK 2664b
+2023-09-30 20:51:54 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805022269762/images.json
+2023-09-30 20:51:57 - INFO - --> 200 OK 449b
+2023-09-30 20:51:57 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805022269762/images.json
+2023-09-30 20:52:00 - INFO - --> 200 OK 449b
+2023-09-30 20:52:00 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805022269762/variants.json
+2023-09-30 20:52:01 - INFO - --> 201 Created 666b
+2023-09-30 20:52:18 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805022269762.json
+2023-09-30 20:52:19 - INFO - --> 200 OK 3991b
+2023-09-30 20:53:43 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805057626434.json
+2023-09-30 20:53:44 - INFO - --> 200 OK 2662b
+2023-09-30 20:53:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805057626434/images.json
+2023-09-30 20:53:47 - INFO - --> 200 OK 412b
+2023-09-30 20:53:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805057626434/images.json
+2023-09-30 20:53:49 - INFO - --> 200 OK 449b
+2023-09-30 20:53:49 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805057626434/variants.json
+2023-09-30 20:53:51 - INFO - --> 201 Created 666b
+2023-09-30 20:53:51 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805057626434.json
+2023-09-30 20:53:53 - INFO - --> 200 OK 3915b
+2023-09-30 20:56:13 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805106516290.json
+2023-09-30 20:56:15 - INFO - --> 200 OK 2664b
+2023-09-30 20:56:15 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805106516290/images.json
+2023-09-30 20:56:17 - INFO - --> 200 OK 449b
+2023-09-30 20:56:17 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805106516290/images.json
+2023-09-30 20:56:20 - INFO - --> 200 OK 449b
+2023-09-30 20:56:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805106516290/variants.json
+2023-09-30 20:56:21 - INFO - --> 201 Created 666b
+2023-09-30 20:56:30 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805106516290.json
+2023-09-30 20:56:32 - INFO - --> 200 OK 3991b
+2023-09-30 20:57:27 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805129486658.json
+2023-09-30 20:57:29 - INFO - --> 200 OK 2664b
+2023-09-30 20:57:29 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805129486658/images.json
+2023-09-30 20:57:31 - INFO - --> 200 OK 449b
+2023-09-30 20:57:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805129486658/images.json
+2023-09-30 20:57:34 - INFO - --> 200 OK 449b
+2023-09-30 20:57:34 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805129486658/variants.json
+2023-09-30 20:57:35 - INFO - --> 201 Created 666b
+2023-09-30 20:57:35 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805129486658.json
+2023-09-30 20:57:37 - INFO - --> 200 OK 3991b
+2023-09-30 21:07:08 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805303779650.json
+2023-09-30 21:07:10 - INFO - --> 200 OK 2672b
+2023-09-30 21:15:44 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805303779650.json
+2023-09-30 21:15:46 - INFO - --> 200 OK 2672b
+2023-09-30 21:22:09 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805541019970.json
+2023-09-30 21:22:10 - INFO - --> 200 OK 2672b
+2023-09-30 21:22:10 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805541019970/images.json
+2023-09-30 21:22:13 - INFO - --> 200 OK 449b
+2023-09-30 21:22:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805541019970/images.json
+2023-09-30 21:22:16 - INFO - --> 200 OK 449b
+2023-09-30 21:23:13 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805555929410.json
+2023-09-30 21:23:15 - INFO - --> 200 OK 2672b
+2023-09-30 21:23:15 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805555929410/images.json
+2023-09-30 21:23:18 - INFO - --> 200 OK 449b
+2023-09-30 21:23:18 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805555929410/images.json
+2023-09-30 21:23:20 - INFO - --> 200 OK 449b
+2023-09-30 21:25:12 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805584011586.json
+2023-09-30 21:25:13 - INFO - --> 200 OK 2672b
+2023-09-30 21:25:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805584011586/images.json
+2023-09-30 21:25:15 - INFO - --> 200 OK 449b
+2023-09-30 21:25:15 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805584011586/images.json
+2023-09-30 21:25:19 - INFO - --> 200 OK 449b
+2023-09-30 21:25:19 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805584011586.json
+2023-09-30 21:25:20 - INFO - --> 200 OK 3986b
+2023-09-30 21:25:22 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805585977666.json
+2023-09-30 21:25:23 - INFO - --> 200 OK 2784b
+2023-09-30 21:25:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805585977666/images.json
+2023-09-30 21:25:25 - INFO - --> 200 OK 412b
+2023-09-30 21:25:25 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805585977666/images.json
+2023-09-30 21:25:28 - INFO - --> 200 OK 412b
+2023-09-30 21:25:28 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805585977666/images.json
+2023-09-30 21:25:30 - INFO - --> 200 OK 412b
+2023-09-30 21:25:30 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805585977666.json
+2023-09-30 21:25:31 - INFO - --> 200 OK 4390b
+2023-09-30 21:25:33 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805588173122.json
+2023-09-30 21:25:34 - INFO - --> 200 OK 6156b
+2023-09-30 21:25:34 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:36 - INFO - --> 200 OK 412b
+2023-09-30 21:25:36 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:39 - INFO - --> 200 OK 449b
+2023-09-30 21:25:39 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:41 - INFO - --> 200 OK 412b
+2023-09-30 21:25:41 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:44 - INFO - --> 200 OK 412b
+2023-09-30 21:25:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:47 - INFO - --> 200 OK 412b
+2023-09-30 21:25:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:49 - INFO - --> 200 OK 400b
+2023-09-30 21:25:49 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:53 - INFO - --> 200 OK 412b
+2023-09-30 21:25:53 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805588173122/images.json
+2023-09-30 21:25:56 - INFO - --> 200 OK 412b
+2023-09-30 21:25:56 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805588173122.json
+2023-09-30 21:25:57 - INFO - --> 200 OK 9802b
+2023-09-30 21:28:07 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805623300418.json
+2023-09-30 21:28:08 - INFO - --> 200 OK 2670b
+2023-09-30 21:28:08 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805623300418/images.json
+2023-09-30 21:28:10 - INFO - --> 200 OK 412b
+2023-09-30 21:28:10 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805623300418/images.json
+2023-09-30 21:28:13 - INFO - --> 200 OK 449b
+2023-09-30 21:28:13 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805623300418.json
+2023-09-30 21:28:14 - INFO - --> 200 OK 3910b
+2023-09-30 21:28:15 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805625135426.json
+2023-09-30 21:28:16 - INFO - --> 200 OK 2784b
+2023-09-30 21:28:16 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805625135426/images.json
+2023-09-30 21:28:20 - INFO - --> 200 OK 412b
+2023-09-30 21:28:20 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805625135426/images.json
+2023-09-30 21:28:23 - INFO - --> 200 OK 412b
+2023-09-30 21:28:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805625135426/images.json
+2023-09-30 21:28:26 - INFO - --> 200 OK 412b
+2023-09-30 21:28:26 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805625135426.json
+2023-09-30 21:28:28 - INFO - --> 200 OK 4390b
+2023-09-30 21:28:29 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805627625794.json
+2023-09-30 21:28:30 - INFO - --> 200 OK 6156b
+2023-09-30 21:28:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:33 - INFO - --> 200 OK 412b
+2023-09-30 21:28:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:36 - INFO - --> 200 OK 449b
+2023-09-30 21:28:36 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:39 - INFO - --> 200 OK 412b
+2023-09-30 21:28:39 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:41 - INFO - --> 200 OK 412b
+2023-09-30 21:28:41 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:44 - INFO - --> 200 OK 412b
+2023-09-30 21:28:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:47 - INFO - --> 200 OK 400b
+2023-09-30 21:28:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:50 - INFO - --> 200 OK 412b
+2023-09-30 21:28:50 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805627625794/images.json
+2023-09-30 21:28:54 - INFO - --> 200 OK 412b
+2023-09-30 21:28:54 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805627625794.json
+2023-09-30 21:28:56 - INFO - --> 200 OK 9802b
+2023-09-30 21:30:32 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805650268482.json
+2023-09-30 21:30:33 - INFO - --> 200 OK 2672b
+2023-09-30 21:30:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805650268482/images.json
+2023-09-30 21:30:36 - INFO - --> 200 OK 449b
+2023-09-30 21:30:36 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805650268482/images.json
+2023-09-30 21:30:38 - INFO - --> 200 OK 449b
+2023-09-30 21:30:38 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805650268482.json
+2023-09-30 21:30:40 - INFO - --> 200 OK 3986b
+2023-09-30 21:30:41 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805652267330.json
+2023-09-30 21:30:42 - INFO - --> 200 OK 2784b
+2023-09-30 21:30:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805652267330/images.json
+2023-09-30 21:30:45 - INFO - --> 200 OK 449b
+2023-09-30 21:30:45 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805652267330/images.json
+2023-09-30 21:30:53 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805654495554.json
+2023-09-30 21:30:54 - INFO - --> 200 OK 2672b
+2023-09-30 21:30:54 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805654495554/images.json
+2023-09-30 21:30:57 - INFO - --> 200 OK 449b
+2023-09-30 21:30:57 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805654495554/images.json
+2023-09-30 21:31:00 - INFO - --> 200 OK 449b
+2023-09-30 21:31:00 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805654495554.json
+2023-09-30 21:31:01 - INFO - --> 200 OK 3986b
+2023-09-30 21:31:02 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805656265026.json
+2023-09-30 21:31:03 - INFO - --> 200 OK 2784b
+2023-09-30 21:31:03 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805656265026/images.json
+2023-09-30 21:31:06 - INFO - --> 200 OK 449b
+2023-09-30 21:31:06 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805656265026/images.json
+2023-09-30 21:31:16 - INFO - --> 200 OK 449b
+2023-09-30 21:31:16 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805656265026/images.json
+2023-09-30 21:31:19 - INFO - --> 200 OK 449b
+2023-09-30 21:31:19 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805656265026.json
+2023-09-30 21:31:20 - INFO - --> 200 OK 4538b
+2023-09-30 21:31:22 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805659935042.json
+2023-09-30 21:31:23 - INFO - --> 200 OK 6156b
+2023-09-30 21:31:23 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:26 - INFO - --> 200 OK 449b
+2023-09-30 21:31:26 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:28 - INFO - --> 200 OK 449b
+2023-09-30 21:31:28 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:31 - INFO - --> 200 OK 449b
+2023-09-30 21:31:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:35 - INFO - --> 200 OK 449b
+2023-09-30 21:31:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:37 - INFO - --> 200 OK 449b
+2023-09-30 21:31:37 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:40 - INFO - --> 200 OK 437b
+2023-09-30 21:31:40 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:43 - INFO - --> 200 OK 449b
+2023-09-30 21:31:43 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805659935042/images.json
+2023-09-30 21:31:45 - INFO - --> 200 OK 449b
+2023-09-30 21:31:45 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805659935042.json
+2023-09-30 21:31:47 - INFO - --> 200 OK 10098b
+2023-09-30 21:33:12 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805681496386.json
+2023-09-30 21:33:13 - INFO - --> 200 OK 2672b
+2023-09-30 21:33:13 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805681496386/images.json
+2023-09-30 21:33:16 - INFO - --> 200 OK 449b
+2023-09-30 21:33:16 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805681496386/images.json
+2023-09-30 21:33:30 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805686477122.json
+2023-09-30 21:33:31 - INFO - --> 200 OK 2672b
+2023-09-30 21:33:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805686477122/images.json
+2023-09-30 21:33:33 - INFO - --> 200 OK 449b
+2023-09-30 21:33:33 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805686477122/images.json
+2023-09-30 21:33:36 - INFO - --> 200 OK 449b
+2023-09-30 21:33:36 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805686477122.json
+2023-09-30 21:33:37 - INFO - --> 200 OK 3986b
+2023-09-30 21:33:38 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805689327938.json
+2023-09-30 21:33:39 - INFO - --> 200 OK 2785b
+2023-09-30 21:33:39 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805689327938/images.json
+2023-09-30 21:33:42 - INFO - --> 200 OK 449b
+2023-09-30 21:33:42 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805689327938/images.json
+2023-09-30 21:33:45 - INFO - --> 200 OK 449b
+2023-09-30 21:33:45 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805689327938/images.json
+2023-09-30 21:33:47 - INFO - --> 200 OK 449b
+2023-09-30 21:33:47 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805689327938.json
+2023-09-30 21:33:49 - INFO - --> 200 OK 4539b
+2023-09-30 21:33:50 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805693194562.json
+2023-09-30 21:33:52 - INFO - --> 200 OK 6157b
+2023-09-30 21:33:52 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:33:55 - INFO - --> 200 OK 449b
+2023-09-30 21:33:55 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:33:58 - INFO - --> 200 OK 449b
+2023-09-30 21:33:58 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:34:01 - INFO - --> 200 OK 449b
+2023-09-30 21:34:01 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:34:04 - INFO - --> 200 OK 449b
+2023-09-30 21:34:04 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:34:07 - INFO - --> 200 OK 449b
+2023-09-30 21:34:07 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:34:09 - INFO - --> 200 OK 437b
+2023-09-30 21:34:09 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:34:12 - INFO - --> 200 OK 449b
+2023-09-30 21:34:12 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805693194562/images.json
+2023-09-30 21:34:14 - INFO - --> 200 OK 449b
+2023-09-30 21:34:14 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8805693194562.json
+2023-09-30 21:34:16 - INFO - --> 200 OK 10099b
+2023-09-30 21:34:58 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805712167234.json
+2023-09-30 21:34:59 - INFO - --> 200 OK 2673b
+2023-09-30 21:34:59 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805712167234/images.json
+2023-09-30 21:35:29 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805722292546.json
+2023-09-30 21:35:30 - INFO - --> 200 OK 2673b
+2023-09-30 21:35:30 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805722292546/images.json
+2023-09-30 21:35:35 - INFO - --> 200 OK 449b
+2023-09-30 21:35:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805722292546/images.json
+2023-09-30 21:35:38 - INFO - --> 200 OK 449b
+2023-09-30 21:36:43 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8805743853890.json
+2023-09-30 21:36:44 - INFO - --> 200 OK 2673b
+2023-09-30 21:36:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805743853890/images.json
+2023-09-30 21:36:47 - INFO - --> 200 OK 449b
+2023-09-30 21:36:47 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8805743853890/images.json
+2023-10-01 11:35:40 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8808235467074.json
+2023-10-01 11:35:41 - INFO - --> 200 OK 2670b
+2023-10-01 11:35:41 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235467074/images.json
+2023-10-01 11:35:44 - INFO - --> 200 OK 412b
+2023-10-01 11:35:44 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235467074/images.json
+2023-10-01 11:35:47 - INFO - --> 200 OK 449b
+2023-10-01 11:35:47 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8808235467074.json
+2023-10-01 11:35:48 - INFO - --> 200 OK 3910b
+2023-10-01 11:35:49 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8808235696450.json
+2023-10-01 11:35:51 - INFO - --> 200 OK 2784b
+2023-10-01 11:35:51 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235696450/images.json
+2023-10-01 11:35:54 - INFO - --> 200 OK 412b
+2023-10-01 11:35:54 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235696450/images.json
+2023-10-01 11:35:58 - INFO - --> 200 OK 412b
+2023-10-01 11:35:58 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235696450/images.json
+2023-10-01 11:36:01 - INFO - --> 200 OK 412b
+2023-10-01 11:36:01 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8808235696450.json
+2023-10-01 11:36:03 - INFO - --> 200 OK 4390b
+2023-10-01 11:36:04 - INFO - GET https://075bc9-3.myshopify.com/admin/products/8808235991362.json
+2023-10-01 11:36:05 - INFO - --> 200 OK 6156b
+2023-10-01 11:36:05 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:10 - INFO - --> 200 OK 412b
+2023-10-01 11:36:10 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:14 - INFO - --> 200 OK 449b
+2023-10-01 11:36:14 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:19 - INFO - --> 200 OK 412b
+2023-10-01 11:36:19 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:22 - INFO - --> 200 OK 412b
+2023-10-01 11:36:22 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:27 - INFO - --> 200 OK 412b
+2023-10-01 11:36:27 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:31 - INFO - --> 200 OK 400b
+2023-10-01 11:36:31 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:35 - INFO - --> 200 OK 412b
+2023-10-01 11:36:35 - INFO - POST https://075bc9-3.myshopify.com/admin/products/8808235991362/images.json
+2023-10-01 11:36:38 - INFO - --> 200 OK 412b
+2023-10-01 11:36:38 - INFO - PUT https://075bc9-3.myshopify.com/admin/products/8808235991362.json
+2023-10-01 11:36:40 - INFO - --> 200 OK 9802b
+2023-10-01 21:39:22 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768456851756.json
+2023-10-01 21:39:23 - INFO - --> 200 OK 2670b
+2023-10-01 21:39:23 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768456851756/images.json
+2023-10-01 21:39:26 - INFO - --> 200 OK 412b
+2023-10-01 21:39:26 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768456851756/images.json
+2023-10-01 21:39:29 - INFO - --> 200 OK 449b
+2023-10-01 21:39:43 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768458129708.json
+2023-10-01 21:39:43 - INFO - --> 200 OK 2672b
+2023-10-01 21:39:43 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768458129708/images.json
+2023-10-01 21:39:46 - INFO - --> 200 OK 449b
+2023-10-01 21:39:46 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768458129708/images.json
+2023-10-01 21:39:48 - INFO - --> 200 OK 449b
+2023-10-01 21:41:54 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768464683308.json
+2023-10-01 21:41:56 - INFO - --> 200 OK 2672b
+2023-10-01 21:41:56 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768464683308/images.json
+2023-10-01 21:41:58 - INFO - --> 200 OK 449b
+2023-10-01 21:41:58 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768464683308/images.json
+2023-10-01 21:42:00 - INFO - --> 200 OK 449b
+2023-10-01 21:44:12 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768471499052.json
+2023-10-01 21:44:12 - INFO - --> 200 OK 2672b
+2023-10-01 21:44:12 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768471499052/images.json
+2023-10-01 21:44:15 - INFO - --> 200 OK 449b
+2023-10-01 21:44:15 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768471499052/images.json
+2023-10-01 21:44:17 - INFO - --> 200 OK 449b
+2023-10-01 21:46:27 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768481460524.json
+2023-10-01 21:46:27 - INFO - --> 200 OK 2672b
+2023-10-01 21:46:27 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768481460524/images.json
+2023-10-01 21:46:30 - INFO - --> 200 OK 449b
+2023-10-01 21:46:30 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768481460524/images.json
+2023-10-01 21:46:33 - INFO - --> 200 OK 449b
+2023-10-01 21:46:33 - INFO - PUT https://560a71-2.myshopify.com/admin/products/8768481460524.json
+2023-10-01 21:46:34 - INFO - --> 200 OK 4010b
+2023-10-01 21:46:36 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768481820972.json
+2023-10-01 21:46:36 - INFO - --> 200 OK 2784b
+2023-10-01 21:46:36 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768481820972/images.json
+2023-10-01 21:46:40 - INFO - --> 200 OK 412b
+2023-10-01 21:46:40 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768481820972/images.json
+2023-10-01 21:46:43 - INFO - --> 200 OK 412b
+2023-10-01 21:46:43 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768481820972/images.json
+2023-10-01 21:46:47 - INFO - --> 200 OK 412b
+2023-10-01 21:46:47 - INFO - PUT https://560a71-2.myshopify.com/admin/products/8768481820972.json
+2023-10-01 21:46:48 - INFO - --> 200 OK 4414b
+2023-10-01 21:52:15 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768499745068.json
+2023-10-01 21:52:16 - INFO - --> 200 OK 2670b
+2023-10-01 21:52:16 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768499745068/images.json
+2023-10-01 21:52:19 - INFO - --> 200 OK 412b
+2023-10-01 21:52:19 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768499745068/images.json
+2023-10-01 21:52:21 - INFO - --> 200 OK 449b
+2023-10-01 21:52:21 - INFO - PUT https://560a71-2.myshopify.com/admin/products/8768499745068.json
+2023-10-01 21:52:22 - INFO - --> 200 OK 3934b
+2023-10-01 21:52:24 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768500007212.json
+2023-10-01 21:52:24 - INFO - --> 200 OK 2784b
+2023-10-01 21:52:24 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500007212/images.json
+2023-10-01 21:52:27 - INFO - --> 200 OK 412b
+2023-10-01 21:52:27 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500007212/images.json
+2023-10-01 21:52:30 - INFO - --> 200 OK 412b
+2023-10-01 21:52:30 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500007212/images.json
+2023-10-01 21:52:32 - INFO - --> 200 OK 412b
+2023-10-01 21:52:32 - INFO - PUT https://560a71-2.myshopify.com/admin/products/8768500007212.json
+2023-10-01 21:52:34 - INFO - --> 200 OK 4414b
+2023-10-01 21:52:35 - INFO - GET https://560a71-2.myshopify.com/admin/products/8768500433196.json
+2023-10-01 21:52:36 - INFO - --> 200 OK 6156b
+2023-10-01 21:52:36 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:52:39 - INFO - --> 200 OK 412b
+2023-10-01 21:52:39 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:52:42 - INFO - --> 200 OK 449b
+2023-10-01 21:52:42 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:52:46 - INFO - --> 200 OK 412b
+2023-10-01 21:52:46 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:52:50 - INFO - --> 200 OK 412b
+2023-10-01 21:52:50 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:52:53 - INFO - --> 200 OK 412b
+2023-10-01 21:52:53 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:52:57 - INFO - --> 200 OK 400b
+2023-10-01 21:52:57 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:53:01 - INFO - --> 200 OK 412b
+2023-10-01 21:53:01 - INFO - POST https://560a71-2.myshopify.com/admin/products/8768500433196/images.json
+2023-10-01 21:53:05 - INFO - --> 200 OK 412b
+2023-10-01 21:53:05 - INFO - PUT https://560a71-2.myshopify.com/admin/products/8768500433196.json
+2023-10-01 21:53:07 - INFO - --> 200 OK 9946b

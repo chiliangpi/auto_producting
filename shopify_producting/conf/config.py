@@ -10,7 +10,7 @@ import os
 __dir__ = os.path.dirname(os.path.abspath(__file__))
 project_dir = os.path.abspath(os.path.join(__dir__, '../..'))
 
-download_file_path = os.path.join(project_dir, "shopify_producting/data/mabang_download.csv")
+download_file_path = os.path.join(project_dir, "shopify_producting/data/shopify_chanpin_1393491_20231001224508016.xlsx")
 download_file_no_surfix = os.path.splitext(os.path.basename(download_file_path))[0]
 download_file_dirname = os.path.dirname(download_file_path)
 processed_file_path = os.path.join(download_file_dirname, f"{download_file_no_surfix}_output.csv")
@@ -37,10 +37,13 @@ emoji_code = {'material': '&#x1F48E;',
 # # SHOPIFY_API_KEY = '75103bfd38d006ed622eeaf56d2219e2'
 # SHOPIFY_PASSWORD='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'
 
+# SHOPIFY_SHOP_URL = '075bc9-3.myshopify.com'
+# SHOPIFY_API_KEY = '6467a608a6a31ace2df1921a8d778dca'
+# # SHOPIFY_API_KEY = 'c25349fc85d3751d77da6703c7c19c89'
+# SHOPIFY_PASSWORD = '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'
 
-SHOPIFY_SHOP_URL = '075bc9-3.myshopify.com'
-SHOPIFY_API_KEY = '6467a608a6a31ace2df1921a8d778dca'
-# SHOPIFY_API_KEY = 'c25349fc85d3751d77da6703c7c19c89'
-SHOPIFY_PASSWORD = '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'
+SHOPIFY_SHOP_URL = '560a71-2.myshopify.com'
+SHOPIFY_API_KEY = '7b1d94e6ef024bf5fae7474b889ddad2'
+SHOPIFY_PASSWORD = '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'
 
 OPENAI_API_KEY = "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"
